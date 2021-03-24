@@ -1,6 +1,10 @@
 # breaking-telegram
 A simple script to save all the timer photos and videos sent to you.
 
+## PoC
+
+<img src="poc.gif" alt="poc" style="max-width:300px" />
+
 
 ## How to
 ### Step 0 
@@ -30,9 +34,6 @@ Eventually you will be asked for a password, if you have one set in your account
 Receive an image with timer (could also be a video or gif).
 Check your saved messages.
 
-## PoC
-
-<img src="poc.gif" alt="poc" style="max-width:300px" />
 
 ## Take Home
 
