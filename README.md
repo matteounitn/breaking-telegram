@@ -1,5 +1,5 @@
 # breaking-telegram
-A simple script to save all the timer photos and videos sent to you.
+PoC script that allows you to exploit telegram's "send with timer" feature, automatically saving any media sent with this functionality.
 
 ## PoC
 
