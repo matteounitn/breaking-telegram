@@ -30,7 +30,11 @@ Eventually you will be asked for a password, if you have one set in your account
 Receive an image with timer (could also be a video or gif).
 Check your saved messages.
 
-### Take Home
+## PoC
+
+<img src="poc.gif" alt="poc" style="max-width:300px" />
+
+## Take Home
 
 Use secret chats.
 They still are not bulletproof, but they are safer.

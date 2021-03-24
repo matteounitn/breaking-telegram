@@ -1,0 +1,2 @@
+Pyrogram===0.18.0
+TgCrypto
