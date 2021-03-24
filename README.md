@@ -1,5 +1,5 @@
 # breaking-telegram
-PoC script that allows you to exploit telegram's "send with timer" feature, automatically saving any media sent with this functionality.
+Simple PoC script that allows you to exploit telegram's "send with timer" feature by saving any media sent with this functionality.
 
 ## PoC
 
