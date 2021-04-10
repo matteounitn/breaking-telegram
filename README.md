@@ -9,7 +9,7 @@ Simple PoC script that allows you to exploit telegram's "send with timer" featur
 ## How to
 ### Step 0 
 
-`git clone https://github.com/matteounitn/broking-telegram.git`
+`git clone https://github.com/matteounitn/breaking-telegram.git`
 
 ### Step 1
 
