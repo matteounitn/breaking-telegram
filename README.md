@@ -20,7 +20,7 @@ Simple PoC script that allows you to exploit telegram's "send with timer" featur
 
 ### Step 2
 
-1. `cd broking-telegram`
+1. `cd breaking-telegram`
 2. `python3 -m venv venv && source venv/bin/activate`
 3. `pip3 install -r requirements.txt`
 4. `python3 broke.py`
