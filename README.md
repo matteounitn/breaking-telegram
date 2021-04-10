@@ -37,5 +37,5 @@ Check your saved messages.
 
 ## Take Home
 
-Use secret chats.
-They still are not bulletproof, but they are safer.
+Use secret chats. 
+They're not bulletproof, but they're definitely safer.
