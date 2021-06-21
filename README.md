@@ -1,6 +1,10 @@
 # breaking-telegram
 Simple PoC script that allows you to exploit telegram's "send with timer" feature by saving any media sent with this functionality.
 
+## Status
+
+**Working**
+
 ## PoC
 
 <img src="poc.gif" alt="poc" style="max-width:300px" />
