@@ -1,4 +1,4 @@
-from pyrogram.api.types import (
+from pyrogram.raw.types import (
     UpdateNewMessage,
     MessageMediaPhoto,
     MessageMediaDocument,
@@ -21,11 +21,11 @@ def handler(client, update, users, chats):
                 isinstance(update.message.media, MessageMediaDocument)
                 or isinstance(update.message.media, MessageMediaPhoto)
             )
-            and isinstance(update.message.to_id, PeerUser)
+            and isinstance(update.message.peer_id, PeerUser)
             and update.message.out is False
             and update.message.media.ttl_seconds is not None
         ):
-            message = client.get_messages(update.message.from_id, update.message.id)
+            message = client.get_messages(update.message.peer_id.user_id, update.message.id)
             text = (
                 f"__New Secret__\n__From__ {message.from_user.first_name} -"
                 f" [{message.from_user.id}](tg://user?id={message.from_user.id}) \n\n"
