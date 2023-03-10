@@ -10,7 +10,7 @@ Due to Telegram API Terms of Service, the use of this script is for PoC only.
 
 ## Status
 
-**Working** - _Feb 11, 2023_
+**Working** - _March 10, 2023_
 
 ## PoC
 
