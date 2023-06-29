@@ -8,7 +8,14 @@ from pyrogram.raw.types import (
 from pyrogram import Client
 import os.path
 
-client = Client(session_name="default")
+with open("config.ini", "r") as f:
+    #we read the second and third line and split = to get the api_id and api_hash
+    file= f.readlines()
+    api_id = file[1].split("=")[1].strip()
+    api_hash = file[2].split("=")[1].strip()
+
+client = Client(name="default", api_id=api_id, api_hash=api_hash)
+
 
 
 @client.on_raw_update(group=-100)
@@ -30,7 +37,7 @@ def handler(client, update, users, chats):
                 f"__New Secret__\n__From__ {message.from_user.first_name} -"
                 f" [{message.from_user.id}](tg://user?id={message.from_user.id}) \n\n"
                 f"[Go to message](tg://openmessage?user_id={str(message.chat.id)}"
-                f"&message_id={message.message_id})\n"
+                f"&message_id={message.id})\n"
             )
             path = message.download()
             if os.path.exists(path):
