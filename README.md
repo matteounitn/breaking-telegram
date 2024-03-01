@@ -26,7 +26,7 @@ re-run "`pip3 install -r requirements.txt --force-reinstall`".
 
 This will update the dependencies needed. 
 
-Check issue #4.
+Check issue [#4](https://github.com/matteounitn/breaking-telegram/issues/4).
 
 ### Step 0 
 
