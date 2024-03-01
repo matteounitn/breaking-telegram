@@ -10,7 +10,7 @@ Due to Telegram API Terms of Service, the use of this script is for PoC only.
 
 ## Status
 
-**Working** - _June 29, 2023_
+**Working** - _Mar 1, 2024_
 
 ## PoC
 
@@ -18,6 +18,16 @@ Due to Telegram API Terms of Service, the use of this script is for PoC only.
 
 
 ## How to
+### Step -1
+
+IF and only IF you were using an old version (before telegram single view media update), 
+
+re-run "`pip3 install -r requirements.txt --force-reinstall`". 
+
+This will update the dependencies needed. 
+
+Check issue #4.
+
 ### Step 0 
 
 `git clone https://github.com/matteounitn/breaking-telegram.git`
@@ -33,7 +43,7 @@ Due to Telegram API Terms of Service, the use of this script is for PoC only.
 
 1. `cd breaking-telegram`
 2. `python3 -m venv venv && source venv/bin/activate`
-3. `pip3 install -r requirements.txt`
+3. `pip3 install -r requirements.txt --force-reinstall`
 4. `python3 broke.py`
 
 Now insert your number and your code. 
